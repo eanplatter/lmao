@@ -33,6 +33,6 @@ get '/user' do
 end
 
 post '/user' do
-  json @request_payload
+  newUser = User.new(@request_payload.first, @request_payload.last)
 end
 
