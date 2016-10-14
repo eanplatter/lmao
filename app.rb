@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/json'
+require 'json'
 
 class User
   def initialize(first_name, last_name)
